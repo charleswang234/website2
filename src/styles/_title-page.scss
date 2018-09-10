@@ -1,0 +1,100 @@
+.title-page-container {
+    padding: 0px;
+    margin: 0px;
+    background-image:url('../images/grassland.jpg');
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    // font-family: 'Montserrat', sans-serif;
+    // background: #4CB5F5; // #007Cdc
+    // background: #063852;
+    // background: #2D4262;
+    // background: linear-gradient(top, #007Cdc 0%, #003a68 100%);
+
+    justify-content: center;
+    align-items: center;
+    // width: 100vw;
+    // background-repeat: no-repeat;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    
+    .color-overlay {
+        padding: 0rem;
+        margin: 0rem;
+        height: 100%; 
+        width: 100%;
+        position: absolute;
+        box-sizing: border-box;
+        
+        background: #2D4262;
+        opacity: .6;
+        // background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;   
+    }
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+
+        h1 {
+            padding: 0rem;
+            margin: 0rem; 
+            color: white;
+            font-size: 4.5rem;
+        }
+
+        .job {
+            font-size: 1.25rem;
+            color: #ffe479;
+            margin: 1.5rem 0rem 0rem 0rem;
+        }
+
+        .line-break {
+            width: 6rem;
+            margin-top: 1.75rem;
+            margin-bottom: 1.75rem;
+            background-color: rgb(211, 212, 170);
+            border: none;
+            height: 0.1rem;
+        }
+        .contact-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0rem;
+            margin: 0rem;
+
+            .contact-item {
+                margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+                font-size: 1.25rem;
+                color: rgb(215, 216, 210);
+
+                .contact-link {
+                    color: inherit;
+                    text-decoration: inherit;
+
+                    &:hover {
+                        color: lightblue;
+                    }
+                }
+
+                .fas, .fab {
+                    margin: 0rem 0.5rem 0rem 0.5rem;
+                }
+            }
+        }
+
+    }
+}

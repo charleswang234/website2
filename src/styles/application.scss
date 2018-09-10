@@ -1,0 +1,10 @@
+$font-stack: 'Montserrat', sans-serif;
+$alt-font-stack: 'Raleway', sans-serif;
+
+html, body {
+  padding: 0rem;
+  margin: 0rem;
+  font-family: $font-stack;
+}
+
+@import '_home.scss';
